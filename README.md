@@ -5,6 +5,9 @@ RMVR sets up a raymarching environnement in Unity, allowing you to play with dis
 Have a look on the project sample scene. On the camera is the Raymarching component. Everything happens here.
 The 3 tabs correspond to 1 - Optimisation, 2 - Shading, and 3 - Distance function to use and variable passed to it. Try some of the included 
 presets.
+
+
+
 This tool is also meant to work in VR. Stereo is optimised using a screen space reprojection technique.
 You can shade the shapes like you would with a standard material, with additionnal features adapted from raymarching demos, like pseudo-SSS, 
 AO, or glow. You can mix meshes and raymarching with depth awareness.
