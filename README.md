@@ -17,4 +17,4 @@ are systematically passed to the distance function.
 The others CGINCLUDE files contain a lot of usefull functions for distance fields, shader maths, noises.
 Theses are not well documented yet, but should look familiar to shader programmers.
 
-I just made this project public. A cleaner documentation and nice pictures and videos are coming.
+I just made this project public. A cleaner documentation and nice pictures are coming.
