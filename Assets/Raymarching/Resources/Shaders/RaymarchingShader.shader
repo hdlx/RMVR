@@ -1,6 +1,6 @@
 ﻿//MIT License
 //
-//Copyright (c) 2018 Paul Hubert
+//Copyright (c) 2018 http://hubpaul.com
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -196,9 +196,9 @@ Shader "Raymarching/RayMarchingShader"
 
 				const float2 eps = float2(0.05, 0.0);
 
-				float d1 = map(pos + eps.xyy).distHit.x, d2 = d;// map(pos - eps.xyy).distHit.x;
-				float d3 = map(pos + eps.yxy).distHit.x, d4 = d;// map(pos - eps.yxy).distHit.x;
-				float d5 = map(pos + eps.yyx).distHit.x, d6 = d;// map(pos - eps.yyx).distHit.x;
+				float d1 = map(pos + eps.xyy).distHit.x, d2 = map(pos - eps.xyy).distHit.x; //replace d2 d4 d6 by d for a little optimisation
+				float d3 = map(pos + eps.yxy).distHit.x, d4 = map(pos - eps.yxy).distHit.x;
+				float d5 = map(pos + eps.yyx).distHit.x, d6 = map(pos - eps.yyx).distHit.x;
 
 				float3 nor = float3 (d1 - d2, d3 - d4, d5 - d6);
 

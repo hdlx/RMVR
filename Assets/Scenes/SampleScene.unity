@@ -270,13 +270,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fe9d7cb1ff04cb4ebfdc5419755e800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDist: 0.00025
+  minDist: 0.0015
   maxSteps: 50
   maxDist: 60
   eyeResolution: 1
   computedW: 1007
-  computedH: 629
-  dithering: 1.5
+  computedH: 697
+  dithering: 3
   heatMap: 0
   stereoSeparationFactor: 1
   cubemap: {fileID: 0}
@@ -305,10 +305,10 @@ MonoBehaviour:
   useAlgoColorDiffuse0: 0
   diffuseColor0: {r: 1, g: 0, b: 0.00931406, a: 0}
   kD0: 0
-  emission0: 1
+  emission0: 2
   specColor0: {r: 1, g: 1, b: 1, a: 0}
-  kS0: 1
-  roughness0: 2.22
+  kS0: 0.56
+  roughness0: 1
   kRef0: 0
   fresnelColor0: {r: 1, g: 1, b: 1, a: 0}
   fPow0: 0
@@ -384,7 +384,7 @@ MonoBehaviour:
   algoFloat2: 0
   algoFloat3: 0
   mi: 0
-  nearClip: 5
+  nearClip: 0
 --- !u!114 &534669907
 MonoBehaviour:
   m_ObjectHideFlags: 0
