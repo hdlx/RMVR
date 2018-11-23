@@ -1,5 +1,6 @@
 # RMVR
 VR Compatible Raymarching for Unity
+https://vimeo.com/302491068
 
 RMVR sets up a raymarching environnement in Unity, allowing you to play with distance functions and to display procedural shapes and fractals.
 Have a look on the project sample scene. On the camera is the Raymarching component. Everything happens here.
@@ -17,4 +18,4 @@ are systematically passed to the distance function.
 The others CGINCLUDE files contain a lot of usefull functions for distance fields, shader maths, noises.
 Theses are not well documented yet, but should look familiar to shader programmers.
 
-I just made this project public. A cleaner documentation and nice pictures are coming.
+I just made this project public. A cleaner documentation and maybe howto videos are coming.
