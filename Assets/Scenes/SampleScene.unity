@@ -214,8 +214,8 @@ Camera:
   m_GameObject: {fileID: 534669902}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.11320752, g: 0.111605525, b: 0.111605525, a: 0}
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -270,13 +270,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fe9d7cb1ff04cb4ebfdc5419755e800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDist: 0.0015
-  maxSteps: 50
-  maxDist: 60
+  minDist: 0.0005
+  maxSteps: 853
+  maxDist: 296
   eyeResolution: 1
-  computedW: 1007
-  computedH: 697
-  dithering: 3
+  computedW: 627
+  computedH: 550
+  dithering: 0
   heatMap: 0
   stereoSeparationFactor: 1
   cubemap: {fileID: 0}
@@ -284,47 +284,47 @@ MonoBehaviour:
   alpha: 1
   fogColor: {r: 0, g: 0, b: 0, a: 1}
   fogStrength: 1
-  zTest: 0
-  zTestSmooth: 1
+  zTest: 1
+  zTestSmooth: 2.84
   lt: 0
   lightPow: 1
   pointLightTransform: {fileID: 0}
   doShadow: 1
-  shadowMaxSteps: 0
-  shadowMaxDist: 5
+  shadowMaxSteps: 13
+  shadowMaxDist: 50
   shadowtMin: 0.1
-  shadowSmooth: 1.52
-  shadowStr: 0.95
+  shadowSmooth: 1
+  shadowStr: 1
   shadowColor: {r: 0, g: 0, b: 0, a: 0}
   distGlowNear: 0
-  distGlowFar: 0
+  distGlowFar: 6.89
   distGlowStr: 0
   normalsWarning: 000000
   computeNormals0: 1
   diffuseMap0: {fileID: 0}
   useAlgoColorDiffuse0: 0
-  diffuseColor0: {r: 1, g: 0, b: 0.00931406, a: 0}
+  diffuseColor0: {r: 1, g: 1, b: 1, a: 0}
   kD0: 0
-  emission0: 2
+  emission0: 1
   specColor0: {r: 1, g: 1, b: 1, a: 0}
-  kS0: 0.56
+  kS0: 2.57
   roughness0: 1
   kRef0: 0
   fresnelColor0: {r: 1, g: 1, b: 1, a: 0}
-  fPow0: 0
+  fPow0: 7.22
   kF0: 0
   doGlow0: 1
-  glowColor0: {r: 0.75, g: 0.9006462, b: 1, a: 0}
-  glowCoef0: 0.02
-  glowRemap0: 0.41
-  useAlgoColorGlow0: 0
+  glowColor0: {r: 1, g: 0.83467245, b: 0.6367924, a: 0}
+  glowCoef0: 6.02
+  glowRemap0: 0.4
+  useAlgoColorGlow0: 1
   doAoSSS0: 1
-  aoSSSMode0: 1
+  aoSSSMode0: 3
   aoSSSSteps0: 10
-  aoSSSDelta0: 2
-  aoSSSCoef0: 1.25
-  aoSSSRemap0: -0.47
-  aoSSSColor0: {r: 0, g: 0, b: 0, a: 1}
+  aoSSSDelta0: 3.56
+  aoSSSCoef0: 1
+  aoSSSRemap0: 0.29
+  aoSSSColor0: {r: 0.3207547, g: 0.1547921, b: 0, a: 0}
   computeNormals1: 0
   diffuseMap1: {fileID: 0}
   useAlgoColorDiffuse1: 0
@@ -340,16 +340,16 @@ MonoBehaviour:
   kF1: 0
   doGlow1: 0
   glowColor1: {r: 0, g: 0, b: 0, a: 0}
-  glowCoef1: 1
+  glowCoef1: 0
   glowRemap1: 0
   useAlgoColorGlow1: 0
   doAoSSS1: 0
   aoSSSMode1: 0
-  aoSSSSteps1: 5
-  aoSSSDelta1: 0.1
-  aoSSSCoef1: 1
+  aoSSSSteps1: 0
+  aoSSSDelta1: 0
+  aoSSSCoef1: 0
   aoSSSRemap1: 0
-  aoSSSColor1: {r: 0, g: 0, b: 0, a: 1}
+  aoSSSColor1: {r: 0, g: 0, b: 0, a: 0}
   computeNormals2: 0
   diffuseMap2: {fileID: 0}
   useAlgoColorDiffuse2: 0
@@ -365,26 +365,26 @@ MonoBehaviour:
   kF2: 0
   doGlow2: 0
   glowColor2: {r: 0, g: 0, b: 0, a: 0}
-  glowCoef2: 1
+  glowCoef2: 0
   glowRemap2: 0
   useAlgoColorGlow2: 0
   doAoSSS2: 0
   aoSSSMode2: 0
   aoSSSSteps2: 0
-  aoSSSDelta2: 0.1
-  aoSSSCoef2: 1
+  aoSSSDelta2: 0
+  aoSSSCoef2: 0
   aoSSSRemap2: 0
-  aoSSSColor2: {r: 0, g: 0, b: 0, a: 1}
-  algoColor0: {r: 0.8867924, g: 0.45594516, b: 0.4809218, a: 0}
-  algoColor1: {r: 0.48584908, g: 0.740566, b: 1, a: 0}
+  aoSSSColor2: {r: 0, g: 0, b: 0, a: 0}
+  algoColor0: {r: 0.4666667, g: 0.47301295, b: 1, a: 0}
+  algoColor1: {r: 1, g: 0.9916863, b: 0.4669811, a: 0}
   algoColor2: {r: 0, g: 0, b: 0, a: 0}
   algoColor3: {r: 0, g: 0, b: 0, a: 0}
-  algoFloat0: 0
+  algoFloat0: 1.5
   algoFloat1: 0
   algoFloat2: 0
   algoFloat3: 0
-  mi: 0
-  nearClip: 0
+  mi: 1
+  nearClip: 2
 --- !u!114 &534669907
 MonoBehaviour:
   m_ObjectHideFlags: 0

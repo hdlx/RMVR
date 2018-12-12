@@ -96,7 +96,6 @@ public class RaymarchingEditor : Editor
         stereoSeparationFactor = serializedObject.FindProperty("stereoSeparationFactor");
 
         // MATERIAL Common
-
         alpha = serializedObject.FindProperty("alpha");
         fogStrength = serializedObject.FindProperty("fogStrength");
         fogColor = serializedObject.FindProperty("fogColor");
@@ -150,7 +149,6 @@ public class RaymarchingEditor : Editor
             glowRemap[i] = serializedObject.FindProperty("glowRemap" + i.ToString());
             useAlgoColorGlow[i] = serializedObject.FindProperty("useAlgoColorGlow" + i.ToString());
         }
-
 
         //RAYMARCHING SHAPE RELATED
         mapIndex = serializedObject.FindProperty("mi");
@@ -208,7 +206,7 @@ public class RaymarchingEditor : Editor
             {
                 EditorGUI.indentLevel++;
                 EditorGUILayout.PropertyField(shadowMaxDist);
-                //					EditorGUILayout.PropertyField(shadowMaxSteps);
+                //EditorGUILayout.PropertyField(shadowMaxSteps);
                 EditorGUILayout.PropertyField(shadowtMin);
                 EditorGUILayout.PropertyField(shadowSmooth);
                 EditorGUILayout.PropertyField(shadowStr);
@@ -223,12 +221,10 @@ public class RaymarchingEditor : Editor
             //SPECIFIC
             EditorGUILayout.LabelField(new GUIContent("Material specific param."), EditorStyles.boldLabel);
 
-
-
             sm = (selectedMat)EditorGUILayout.EnumPopup("Material (hit ID in map() function)", sm);
 
             EditorGUILayout.PropertyField(computeNormals[(int)sm]);
-
+            
 
             EditorGUILayout.PropertyField(diffuseMap[(int)sm]);
 

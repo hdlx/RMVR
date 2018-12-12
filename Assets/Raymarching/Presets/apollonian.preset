@@ -46,11 +46,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: computedW
-    value: 644
+    value: 729
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: computedH
-    value: 402
+    value: 550
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: dithering
@@ -294,7 +294,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: glowCoef0
-    value: 0.21
+    value: 6.02
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: glowRemap0

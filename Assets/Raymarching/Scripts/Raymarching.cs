@@ -1,6 +1,7 @@
 ﻿//MIT License
 //
 //Copyright (c) 2018 http://hubpaul.com
+//Originally developped at and for http://www.small-studio.io/
 //
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -20,12 +21,14 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE.
 
+//READ ME
+//
 //This script should be put on a camera. It then takes care of everything to compute raymarching as a post processing effect.
 //It stores variables related to the raymarching algorithm and to the shading used in it.
 //Variables implied in the shading exist in 3 version in order to use different materials.
 //The name "map" describe a distance field function (i.e. one or several raymarched objects).
 //The maps can be tweaked in the RMMaps.cginc file. 
-
+//
 //For VR, set mode to SINGLE PASS STEREO
 //VR uses eye reprojection with screenspace raymarching, adapted from article :
 //Fast Gather-based Construction of Stereoscopic Images Using Reprojection by Marries van de Hoef, Bas Zalmstra

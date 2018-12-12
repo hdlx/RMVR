@@ -46,15 +46,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: computedW
-    value: 1007
+    value: 729
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: computedH
-    value: 629
+    value: 550
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: dithering
-    value: 3
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: heatMap
@@ -138,7 +138,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: shadowStr
-    value: 0.95
+    value: 0.98
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: shadowColor.r
@@ -238,11 +238,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: kS0
-    value: 0.56
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: roughness0
-    value: 1
+    value: 4.76
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: kRef0
@@ -294,11 +294,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: glowCoef0
-    value: 0.02
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: glowRemap0
-    value: 0.41
+    value: 0.33
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: useAlgoColorGlow0

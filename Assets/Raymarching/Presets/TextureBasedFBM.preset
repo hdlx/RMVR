@@ -46,23 +46,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: computedW
-    value: 546
+    value: 627
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: computedH
-    value: 341
+    value: 550
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: dithering
     value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: noiseCubemapResolution
-    value: 1024
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: noiseCubemapFrequency
-    value: 350
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: heatMap
@@ -85,7 +77,23 @@ Preset:
     value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: alphaDecay
+    propertyPath: fogColor.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fogColor.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fogColor.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fogColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fogStrength
     value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
@@ -743,8 +751,4 @@ Preset:
   - target: {fileID: 0}
     propertyPath: nearClip
     value: 2
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: noiseCm
-    value: 
     objectReference: {fileID: 0}
