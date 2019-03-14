@@ -2,7 +2,7 @@
 VR Compatible Raymarching for Unity
 https://vimeo.com/302491068
 
-RMVR sets up a raymarching environnement in Unity, allowing you to play with distance functions and to display procedural shapes and fractals.
+RMVR sets up a raymarching environment in Unity, allowing you to play with distance functions and to display procedural shapes and fractals.
 Have a look on the project sample scene. On the camera is the Raymarching component. Everything happens here.
 
 The 3 tabs correspond to 1 - Optimisation, 2 - Shading, and 3 - Distance function to use and variable passed to it. Try some of the included 
