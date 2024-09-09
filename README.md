@@ -19,5 +19,3 @@ The others CGINCLUDE files contain a lot of usefull functions for distance field
 Theses are not well documented yet, but should look familiar to shader programmers.
 
 Originally developed at and for http://www.small-studio.io/
-
-I just made this project public. A cleaner documentation and maybe howto videos are coming.
